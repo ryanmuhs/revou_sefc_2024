@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua; 
+    padding: 10px;
+}
+
+article{
+    background-color: antiquewhite;
+}
+h1{
+    background-color: green;
+}
+
+p{
+    background-color: yellow;
+}
+
+h2{
+    background-color: red;
+}

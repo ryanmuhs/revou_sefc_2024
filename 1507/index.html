@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <label for="angka1">Masukkan angka ke-1</label>
+    <input type="text" name="angka1" id="angka1">
+    <br>
+    <label for="angka1">Masukkan angka ke-2</label>
+    <input type="text" name="angka2" id="angka2">
+    <br>
+    <p id="hasiltambah"></p>
+    <button onclick="tambah()">Tambah</button>
+    <script>
+        function tambah() {
+            let angka1 = document.getElementById('angka1').value;
+            let angka2 = document.getElementById('angka2').value;
+            let hasil = parseInt(angka1) + parseInt(angka2);
+            document.getElementById('hasiltambah').innerHTML = hasil;
+        }
+    </script>
+</body>
+</html>
